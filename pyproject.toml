@@ -1,0 +1,49 @@
+[project]
+name = "project-template"
+version = "0.1.0"
+requires-python = ">=3.10"
+
+#
+# mypy
+#
+
+[tool.mypy]
+files = ["source/python"]       # Directory or files to be checked
+allow_redefinition = false      # Disallows variable redefinition in the same scope
+check_untyped_defs = true       # Checks functions without type annotations
+ignore_missing_imports = true   # Ignores errors for third-party modules without type annotations
+no_implicit_optional = true     # Requires explicit declaration of Optional
+show_error_codes = true         # Displays error codes alongside error messages
+warn_return_any = true          # Warns if functions return Any
+warn_unused_ignores = true      # Warns about unnecessary `# type: ignore` comments
+warn_unreachable = true         # Warns about unreachable code
+
+#
+# pytest
+#
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+#
+# Ruff
+#
+
+[tool.ruff.lint]
+extend-select = [
+    "B",        # flake8-bugbear: find likely bugs and design problems.
+    "C4",       # flake8-comprehensions: improves list, set, and dict comprehensions.
+    "E",        # general errors: includes all general linting errors.
+    "I",        # isort: enforces import sorting.
+    "NPY",      # numpy: checks for NumPy-specific rules.
+    "PL",       # pylint: suggests better coding practices.
+    "UP",       # pyupgrade: modernizes Python code for newer versions.
+]
+ignore = [
+    "B011",     # flake8-bugbear: allows 'assert False', useful for pytest testing.
+]
+
+[tool.ruff.lint.isort]
+known-first-party = [
+    "project_template",
+]
