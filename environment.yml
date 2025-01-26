@@ -13,9 +13,3 @@ dependencies:
   - pytest-mock
   - python=3.10
   - ruff
-
-variables:
-  PYTHONPATH:
-    - ./source/python
-  MYPYPATH:
-    - ./source/python
