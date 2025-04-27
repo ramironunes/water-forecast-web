@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "envs/project-template-py313/bin/python",
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true
+}

@@ -3,7 +3,7 @@ CONDA_SCRIPT = $(HOME)/miniconda/etc/profile.d/conda.sh
 
 # Define the environment file and name
 ENV_FILE = environment.yml
-ENV_NAME = project-template-py310
+ENV_NAME = project-template-py313
 
 # Define the workspace environment path dynamically
 WORKSPACE_ROOT = $(shell dirname $(shell dirname $(shell pwd)))

@@ -11,5 +11,5 @@ dependencies:
   - pytest
   - pytest-cov
   - pytest-mock
-  - python=3.10
+  - python
   - ruff
