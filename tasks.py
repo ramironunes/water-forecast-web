@@ -6,10 +6,9 @@ from invoke.context import Context
 # 🏗️ Dynamically determine workspace and environment name
 CURRENT_DIR = os.path.abspath(os.getcwd())
 WORKSPACE = os.path.basename(os.path.dirname(os.path.dirname(CURRENT_DIR)))
-PROJECT_NAME = os.path.basename(CURRENT_DIR).replace("-core", "")
-CONDA_ENV_NAME = f"{PROJECT_NAME}-py313"
+PROJECT_NAME = os.path.basename(CURRENT_DIR)
 CONDA_SCRIPT = os.path.expanduser("~/miniconda/etc/profile.d/conda.sh")
-CONDA_ENV = os.path.expanduser(f"~/w/{WORKSPACE}/envs/{CONDA_ENV_NAME}")
+CONDA_ENV = os.path.expanduser(f"~/w/{WORKSPACE}/envs/{PROJECT_NAME}")
 
 print(f"🌍 Detected workspace: {WORKSPACE}")
 print(f"🐍 Conda environment: {CONDA_ENV}")
