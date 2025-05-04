@@ -1,6 +1,4 @@
 {
-    "recommendations": [
-        "ms-python.python"
-    ],
-    "unwantedRecommendations": []
+  "recommendations": ["ms-python.python"],
+  "unwantedRecommendations": []
 }
