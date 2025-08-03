@@ -1,0 +1,11 @@
+version: 2
+updates:
+  # 📦 Updates web dependencies
+  - package-ecosystem: 'npm'
+    commit-message:
+      prefix: ⬆
+    directory: '/web'
+    reviewers:
+      - 'ramironunes'
+    schedule:
+      interval: 'monthly'
