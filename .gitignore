@@ -1,108 +1,35 @@
-# Compiled source files
-*.class
-*.dll
-*.exe
-*.o
-*.out
-*.pyc
-*.pyd
-*.pyo
-*.so
+# 📦 Node.js dependencies
+node_modules/
 
-# Configuration files
-.installed.cfg
-MANIFEST
-*.cover
-*.manifest
-*.spec
-
-# Directories
-__pycache__/
-build/
-coverage/
-develop-eggs/
+# 🏗️ Build output
 dist/
-downloads/
-eggs/
-env/
+dist-ssr/
+build/
+target/
 lib/
 lib64/
-node_modules/
-parts/
-sdist/
-target/
-var/
-venv/
-.venv/
-.wheels
 
-# Log files
+# 🧪 Test and coverage
+coverage/
+*.spec
+*.cover
+*.manifest
+
+# 🧾 Logs
+logs/
 *.log
 *.log.gz
 *.tlog
-pip-log.txt
-pip-delete-this-directory.txt
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Python specific
-.Python
-*.py[cod]
-.hypothesis/
-.pytest_cache/
-.tox/
-.nox/
-.coverage
-.coverage.*
-nosetests.xml
-coverage.xml
-htmlcov/
+# 🔧 TypeScript build info
+*.tsbuildinfo
 
-# Pylint
-pylint-output.xml
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Sphinx documentation
-docs/_build/
-
-# Django specific
-db.sqlite3
-local_settings.py
-
-# Flask specific
-instance/
-.webassets-cache
-
-# Scrapy specific
-.scrapy
-
-# Operating system generated files
-# Linux
-*~
-
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Windows
-Thumbs.db
-Desktop.ini
-ehthumbs.db
-$RECYCLE.BIN/
-
-# IDE / Editor specific
-.idea/
-# .vscode/
-*.iml
-*.ipr
-*.iws
-
-# Eclipse IDE
-.project
-.classpath
-.csettings/
-
-# JetBrains IDEs
-.idea/
-*.iml
+# ⚙️ JS files emitted from TS
+*.js
+*.jsx
+*.js.map
