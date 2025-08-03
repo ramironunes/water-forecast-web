@@ -1,5 +1,11 @@
 {
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "editor.tabSize": 4,
-  "python.pythonPath": "envs/project-template/bin/python"
+  "editor.tabSize": 2,
+  "tailwindCSS.experimental.classRegex": [
+    ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^'\"`]*)"],
+    ["cn\\(([^)]*)\\)", "(?:'|\"|`)([^'\"`]*)"],
+    ["twMerge\\(([^)]*)\\)", "(?:'|\"|`)([^'\"`]*)"]
+  ]
 }

@@ -1,13 +1,13 @@
 {
   "tasks": [
     {
-      "label": "Run Mypy",
+      "label": "Start App",
       "type": "shell",
-      "command": "mypy .",
-      "group": {
-        "kind": "build",
-        "isDefault": true
+      "command": "npm run dev",
+      "options": {
+        "cwd": "${workspaceFolder}/web"
       },
+      "group": "build",
       "problemMatcher": []
     }
   ],

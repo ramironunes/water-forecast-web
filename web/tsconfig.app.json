@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    /* 🌐 Environment */
+    "jsx": "react-jsx",
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "module": "esnext",
+    "target": "es2023",
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+
+    /* 🧱 Compatibility */
+    "useDefineForClassFields": true,
+
+    /* 💡 Bundler Mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+
+    /* ✅ Linting */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
+
+    /* 🔒 Type Safety */
+    "skipLibCheck": true,
+    "strict": true
+  },
+  "include": ["src"]
+}
