@@ -1,4 +1,27 @@
 {
-  "recommendations": ["ms-python.python"],
+  "recommendations": [
+    "bierner.markdown-mermaid",
+    "bradlc.vscode-tailwindcss",
+    "dbaeumer.vscode-eslint",
+    "docker.docker",
+    "esbenp.prettier-vscode",
+    "firsttris.vscode-jest-runner",
+    "github.vscode-github-actions",
+    "GitHub.vscode-pull-request-github",
+    "Gruntfuggly.todo-tree",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode.live-server",
+    "ms-vscode.vscode-typescript-next",
+    "msjsdiag.vscode-react-native",
+    "msjsdiag.vscode-react-native-preview",
+    "naumovs.color-highlight",
+    "Orta.vscode-jest",
+    "rangav.vscode-thunder-client",
+    "streetsidesoftware.code-spell-checker",
+    "softwaredotcom.swdc-vscode",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "VisualStudioExptTeam.vscodeintellicode-insiders",
+    "yzhang.markdown-all-in-one"
+  ],
   "unwantedRecommendations": []
 }

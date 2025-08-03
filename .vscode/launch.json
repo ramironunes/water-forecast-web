@@ -1,11 +1,14 @@
 {
   "configurations": [
     {
-      "name": "Launch Program",
-      "type": "python",
+      "name": "Debug App",
+      "type": "node",
       "request": "launch",
-      "program": "${file}",
-      "console": "integratedTerminal"
+      "cwd": "${workspaceFolder}/web",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
     }
   ],
   "version": "0.2.0"
